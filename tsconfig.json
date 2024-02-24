@@ -1,0 +1,22 @@
+{
+    "ts-node": {
+        "esm": true 
+   },
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "target": "es6",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "ESNext",
+        "jsx": "preserve",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "emitDeclarationOnly": true, // 只输出声明文件(ts 产物)
+        "declaration": true, // 自动生成声明文件
+        "declarationDir": "dist" // 声明文件生成的目录
+    }
+}
